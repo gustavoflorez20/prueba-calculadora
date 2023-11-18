@@ -98,34 +98,22 @@ overflow-x: auto;
   border: white 8px outset;
   background-color:gray;
 }
-#operadores {
-  display:flex;
-    justify-content: space-around;
-    align-items:center;
-    border-color: rgb(243, 242, 242);
-    background-color:gray;
-    color: rgba(0, 0, 0, 0.878);
-    text-transform: uppercase;
-    width: 90%;
-    height: 90%;
-    font-size: 2em;
-    border-radius: 50px;
-    border: white 8px outset;
-}
+
 
 #c {
   display:flex;
     justify-content: space-around;
-    align-items:center;
+    align-items:right;
     border-color: rgb(243, 242, 242);
     background-color:gray;
     color: rgba(0, 0, 0, 0.878);
     text-transform: uppercase;
-    width: 90%;
+    width: 190%;
     height: 90%;
     font-size: 2em;
     border-radius: 50px;
     border: white 8px outset;
+    
 }
 #borrar {
   display:flex;
@@ -140,4 +128,7 @@ overflow-x: auto;
     font-size: 2em;
     border-radius: 50px;
     border: white 8px outset;
+    font-weight: 500px; 
+    
+  
 }
