@@ -31,11 +31,12 @@ botones.forEach(boton => {
         }
 
 
-        if (pantalla.textContent === "0" || pantalla.textContent === "error" ) {
+        if (pantalla.textContent === "0" || pantalla.textContent === "error") {
+            if (pantalla.textContent )
             pantalla.textContent = botonApretado;
         } else {
             pantalla.textContent += botonApretado;
-
+            return;
         }
        
 
